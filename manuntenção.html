@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qual a Importância da Manutenção Preditiva na Indústria 4.0</title>
+  <!-- Importação da fonte Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Reset e configurações básicas */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7f9fc; /* off-white azul */
+      color: #333;
+      line-height: 1.7;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Cabeçalho */
+    header {
+      background: linear-gradient(135deg, #2c3e50, #34495e); /* tons de azul escuro */
+      color: #fff;
+      padding: 20px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .header-container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header-container h1 {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+    nav ul li a {
+      color: #fff;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #18bc9c;  /* destaque teal */
+    }
+
+    /* Conteúdo Principal */
+    main {
+      margin-top: 120px;
+      width: 90%;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 40px;
+    }
+    .article-header {
+      width: 100%;
+      height: 320px;
+      background: url('https://www.fieb.org.br/wp-content/uploads/2023/11/1ed7b86c-faca-453a-94e1-261f79195c33.jpeg') center center no-repeat;
+      background-size: cover;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      position: relative;
+    }
+    .article-header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.25);
+      border-radius: 8px;
+    }
+    article {
+      background-color: #ffffff;
+      padding: 30px 35px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    article h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #2c3e50;
+      font-weight: 600;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: #777;
+      margin-bottom: 25px;
+    }
+    article p {
+      margin-bottom: 25px;
+      text-align: justify;
+      font-size: 1rem;
+    }
+    article img {
+      width: 100%;
+      margin: 25px 0;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    article img:hover {
+      transform: scale(1.02);
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 20px;
+      background-color: #18bc9c;
+      color: #fff;
+      border-radius: 6px;
+      transition: background-color 0.3s, box-shadow 0.3s;
+      font-weight: 600;
+    }
+    .back-link:hover {
+      background-color: #148f74;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .share-button {
+      display: inline-block;
+      margin-top: 25px;
+      margin-left: 10px;
+      padding: 12px 20px;
+      background-color: #18bc9c;
+      color: #fff;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s, box-shadow 0.3s;
+      border: none;
+    }
+    .share-button:hover {
+      background-color: #148f74;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 25px 0;
+      margin-top: 40px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="header-container">
+      <h1>Mundo Industrial</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="Pagina_noticias_em_geral.html">Notícias</a></li>
+          <li><a href="index.html">Mundo Industrial</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main>
+    <div class="article-header"></div>
+    <article>
+      <h2>Qual a Importância da Manutenção Preditiva na Indústria 4.0?</h2>
+      <div class="meta">Publicado em 03 de Maio de 2025 | Atualizado em 03 de Maio de 2025</div>
+      <p>
+        Em um cenário industrial cada vez mais competitivo, a busca por soluções que minimizem custos e evitem falhas se torna prioridade. A manutenção preditiva — intrinsecamente ligada à Indústria 4.0 — permite monitorar equipamentos por meio de sensores e análises de dados em tempo real, antecipando problemas e estendendo a vida útil dos ativos.
+      </p>
+      <p>
+        Diferente das abordagens corretivas ou preventivas tradicionais, essa metodologia baseia-se na coleta contínua de informações. Equipamentos interligados à Internet das Coisas (IoT) transmitem dados que são processados por algoritmos avançados e ferramentas de Big Data, possibilitando intervenções antes do surgimento de falhas críticas.
+      </p>
+      <img src="https://img.freepik.com/fotos-gratis/mulher-de-tiro-medio-trabalhando_23-2148902524.jpg?t=st=1746325369~exp=1746328969~hmac=cf645febd3b0a39d8666f8f86e0963c2c162ad9bc0e3e7d0cf9dfc9ceca8b78a&w=996" alt="Sensores industriais monitorando dados">
+      <p>
+        Especialistas destacam que essa tecnologia não só melhora a confiabilidade dos equipamentos, mas também aumenta a segurança operacional e reduz custos. A diminuição de paradas inesperadas e a possibilidade de planejar manutenções de maneira inteligente se traduzem em um diferencial competitivo significativo.
+      </p>
+      <p>
+        A integração de tecnologias sem fio elimina a necessidade de infraestruturas complexas, permitindo uma gestão mais ágil do parque industrial. Essa conectividade possibilita a criação de uma "cópia digital" do ambiente, onde gestores podem identificar anomalias em tempo real e agir rapidamente para corrigir problemas.
+      </p>
+      <img src="https://img.freepik.com/vetores-gratis/bandeira-de-design-plano-da-industria-4-0_23-2151332178.jpg?t=st=1746325467~exp=1746329067~hmac=4e776876bb682972f08d264ad1e18d15e36c3e630168301c3fe92435273c56c9&w=1060" alt="Indústria conectada com IoT">
+      <p>
+        Em síntese, a manutenção preditiva integrada à Indústria 4.0 transforma dados em ações estratégicas que prolongam a vida útil dos equipamentos e otimizam a eficiência operacional. Essa abordagem inovadora promove um ambiente industrial mais seguro, sustentável e competitivo.
+      </p>
+
+      <a href="nova.html" class="back-link">Voltar para Notícias</a>
+      <button class="share-button" onclick="compartilhar()">📤 Compartilhar</button>
+    </article>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Mundo Industrial. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Script Compartilhar -->
+  <script>
+    function compartilhar() {
+      const url = window.location.href;
+      navigator.clipboard.writeText(url).then(() => {
+        alert('Link copiado para a área de transferência!');
+      }).catch(() => {
+        alert('Não foi possível copiar o link.');
+      });
+    }
+  </script>
+</body>
+</html>
